@@ -1,0 +1,20 @@
+{
+    "portraits": [
+        ["OVERWATCH DARK", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c3090e3a1dccc58f143ff53801bc0cecb139f0eb1278f157d0b5e29db9104bed.png"],
+        ["OVERWATCH LIGHT", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8fb752e425af261dff0c2fb39535e06f9b110dfafcde7c8df321bc836811ba59.png"],
+        ["PACHIMARI", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2f0610e770729602d3711a6b9346e4ed5b1459114e8fc62ce4c7bbfd453706d.png"],
+        ["CUTE GENJI", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d8104d548dc680cab188462297b899e08725b95d2c6614e0beec0e27e073f7ef.png"],
+        ["CUTE LUCIO", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4f6fdc40e06ed8e71da355b5efe070bf7ba3229fb715ef902d659ed5b40a379f.png"],
+        ["CUTE MCREE", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6972913047e1e0c40729c7023e0f06d955e57a4122667ec59874b17600d0e471.png"],
+        ["CUTE MERCY", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/862fefabb68b85dffbe2b6f58b925dfb719bab1a0eb43e4252fe48725ca0452d.png"],
+        ["CUTE HANZO", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/10c21dd702b2b6ffa7972c58124b22910742fbdb3421c5551ad33184dc57b67a.png"],
+        ["CUTE MEI", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1577c9f1911911cabed4e3c8af50d727583aa99fde44a116e0b28e4170e658e0.png"],
+        ["CUTE BASTION", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a22a66f11b0b38b312cc213d8fe40b16a48a8ce108427cc72f5fef960fafcc24.png"],
+        ["CUTE PHARAH", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/62014866be67875fff91559567dbb07707b917956ac23a03a515a89694c3813b.png"],
+        ["CUTE ROADHOG", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e9c98492240f4150b105903723e3219f304967f30f478582f00afd141db9944e.png"],
+        ["CUTE DVA", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/62014866be67875fff91559567dbb07707b917956ac23a03a515a89694c3813b.png"],
+        ["CUTE REINHARDT", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/60f5f3c67f42c4f5c07cb1fd3141412e5880f18541d5f7ad5620485069e8554f.png"],
+        ["CUTE WIDOWMAKER", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/02a7f16e6c0533057e061967998f2872d26415d52ee0fbf042a0fa415c18d1ac.png"],
+        ["CUTE ANA", "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d0386b290b50e2ef65e6103feb464aee607b38dc6e21a41c3c6334c8a1b57987.png"]
+    ]
+}
