@@ -6,9 +6,9 @@ export default function Map(sequelize: Sequelize) {
     _Map.init({
         name: {
             type: DataTypes.STRING,
-            allowNull: false,
-            unique: true
+            allowNull: false
         }
     }, { sequelize, modelName: 'map', tableName: 'map', schema: 'overwatch', timestamps: false });
     return _Map;
 }
+

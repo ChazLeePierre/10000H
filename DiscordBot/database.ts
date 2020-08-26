@@ -19,6 +19,8 @@ import RatingModel from './dbmodels/rating';
 import HeroModel from './dbmodels/hero';
 import AuthenticateModel from './dbmodels/authenticate';
 
+import QueueModel from './dbmodels/overwatch/queue';
+import PlayerQueueModel from './dbmodels/overwatch/playerqueue';
 import MatchModel from './dbmodels/overwatch/match';
 import ModeModel from './dbmodels/overwatch/mode';
 import MapModel from './dbmodels/overwatch/map';
@@ -38,12 +40,14 @@ const sequelize = new Sequelize(DB_NAME!, DB_USER!, DB_PASSWORD!, {
 });
 
 // initialize database tables
-const _Player = PlayerModel(sequelize);
+export const _Player = PlayerModel(sequelize); // exported for PlayerQueue
 const _OWProfile = OWProfileModel(sequelize);
 const _Rating = RatingModel(sequelize);
 const _Hero = HeroModel(sequelize);
 const _Authenticate = AuthenticateModel(sequelize);
 
+export const _Queue = QueueModel(sequelize); // exported for PlayerQueue
+const _PlayerQueue = PlayerQueueModel(sequelize);
 const _Match = MatchModel(sequelize);
 const _Mode = ModeModel(sequelize);
 const _Map = MapModel(sequelize);
@@ -63,6 +67,12 @@ _Map.hasMany(_Match);
 
 _Map.belongsTo(_Mode);
 _Mode.hasMany(_Map);
+
+_Player.belongsToMany(_Queue, { through: _PlayerQueue });
+_Queue.belongsToMany(_Player, { through: _PlayerQueue });
+
+
+
 
 /**
  * Function: insertAuth
